@@ -1,30 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio-2</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Crete Round|Roboto|Poppins|Inter"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-    />
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-</head>
-<body>
-    <section class="nav">
+  </head>
+  <body style=" background-color: #E5E5E5;">
+    <div class="container-fluid  custom-container" style="background: black; ">
+      <section class="container-md nav">
         <span class="leftnav">My Logo</span>
-        <div class="rightnav">
-            <ul class="rightlist">
-                <li class="toplist"><a href="https://tobidechampportfolio.netlify.app/" target="_blank">Portfolio</a></li>
-                <li class="toplist">About</li>
-                <li class="toplist"><a href="https://tobidechampportfolio.netlify.app/#:~:text=I%27m%20always%20interested%20in%20hearing%20about%20new%20projects%2C%20so%20if%20you%27d%20like%20to%20chat%20please%20get%20in%20touch.">Contact</a></li>
-            </ul>
+        <div class="rightnav d-none d-md-flex">
+          <ul class="rightlist list-unstyled d-flex">
+            <li class="toplist">
+              <a
+                href="https://tobidechampportfolio.netlify.app/"
+                target="_parent"
+                >Portfolio</a
+              >
+            </li>
+            <li class="toplist">About</li>
+            <li class="toplist">
+              <a
+                href="https://tobidechampportfolio.netlify.app/#:~:text=I%27m%20always%20interested%20in%20hearing%20about%20new%20projects%2C%20so%20if%20you%27d%20like%20to%20chat%20please%20get%20in%20touch."
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="mobrightnav"><img src="assets/mobile-asts/menu.svg" alt="mnb"></div>
-
-    </section>
+        <span class="mobrightnav d-flex d-md-none">
+          <img src="assets/mobile-asts/menu.svg" alt="mnb" />
+        </span>
+      </section>
+      <section class="header-desk d-none d-md-flex flex-column">
+        <span class="custom-intro">I'm Tobiloba Glad to see you!</span>
+        <span class="custom-intro-des"
+          >I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.</span
+        >
+        <span class="custom-connect">LET'S CONNECT</span>
+        <ul class="footsocials d-flex gap-4 list-unstyled">
+          <li>
+            <a href="https://github.com/tobidechamp15" target="_blank"><img src="assets/git.svg" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tobiloba-oluwadare-4bba71249/" target="_blank"><img
+                src="assets/Linkedin.svg" /></a>
+          </li>
+          <li>
+            <a href="https://angel.co/u/oluwadare-oluwatobiloba" target="_blank"><img src="assets/angelist.svg" /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/tobidechamp15" target="_blank"><img src="assets/twitter.svg" /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@tobidechamp15" target="_blank"><img src="assets/medium.svg" /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="header-mob d-flex d-md-none flex-column">
+        <span class="custom-intro">I'm Tobiloba Glad to see you!</span>
+        <span class="custom-intro-des"
+          >I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.</span
+        >
+        <span class="custom-connect">LET'S CONNECT</span>
+        <ul class="footsocials d-flex gap-4 list-unstyled">
+          <li>
+            <a href="https://github.com/tobidechamp15" target="_blank"><img src="assets/git.svg" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tobiloba-oluwadare-4bba71249/" target="_blank"><img
+                src="assets/Linkedin.svg" /></a>
+          </li>
+          <li>
+            <a href="https://angel.co/u/oluwadare-oluwatobiloba" target="_blank"><img src="assets/angelist.svg" /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/tobidechamp15" target="_blank"><img src="assets/twitter.svg" /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@tobidechamp15" target="_blank"><img src="assets/medium.svg" /></a>
+          </li>
+        </ul>
+      </section>
+      
+    </div>
     
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
