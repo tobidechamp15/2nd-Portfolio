@@ -1,18 +1,22 @@
 * {
   box-sizing: border-box;
 }
+
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 58px 15px 0px 0px;
 }
+
 .rightnav {
   display: none;
 }
-.mobrightnav{
+
+.mobrightnav {
   width: fit-content;
 }
+
 .leftnav {
   font-family: "Poppins";
   font-style: normal;
@@ -24,6 +28,7 @@
   text-align: center;
   color: #6070ff;
 }
+
 .toplist {
   font-family: "Poppins";
   font-style: normal;
@@ -35,9 +40,11 @@
   text-align: center;
   color: #344563;
 }
+
 .rightlist {
   gap: 32px;
 }
+
 .custom-intro {
   font-family: "Poppins";
   font-style: normal;
@@ -48,6 +55,7 @@
   align-items: center;
   color: #172b4d;
 }
+
 .custom-intro-des {
   font-family: "Poppins";
   font-style: normal;
@@ -56,6 +64,7 @@
   line-height: 24px;
   color: #344563;
 }
+
 .custom-connect {
   font-family: "Poppins";
   font-style: normal;
@@ -64,18 +73,87 @@
   line-height: 24px;
   color: #7f8cff;
 }
-.header-mob{
+
+.header-mob {
   padding: 20% 0 20% 0;
-  background-image: url('assets/mobile-asts/header-shapes mobile.svg');
+  background-image: url("assets/mobile-asts/header-shapes mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-.header-desk{
-  background-image: url('assets/desktop-asts/1st bg.svg');
+
+.header-desk {
+  background-image: url("assets/desktop-asts/1st bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   height: 0;
-  padding: 20% 20% 35%;  
+  padding: 20% 20% 35%;
+}
+
+.tonic {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.canopy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.bed {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.tonic-des {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.langs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  
+}
+.custom-fir-work{
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 24px;
+  padding: 24px;
+  gap: 22px;
+}
+.works{
+  gap: 142px;
+  margin-top: 142px;
+}
+
+
+
+
+h{
+  color: rgb(37, 154, 184);
 }
