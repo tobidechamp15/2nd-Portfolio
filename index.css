@@ -17,6 +17,10 @@
   width: fit-content;
 }
 
+.custom-container{
+  border-radius: 0 0 0 100px;
+}
+
 .leftnav {
   font-family: "Poppins";
   font-style: normal;
@@ -88,6 +92,7 @@
   display: flex;
   height: 0;
   padding: 20% 20% 35%;
+  
 }
 
 .tonic {
@@ -137,23 +142,47 @@
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-  
+
 }
-.custom-fir-work{
+
+.custom-fir-work {
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 24px;
   padding: 24px;
   gap: 22px;
 }
-.works{
+
+.works {
   gap: 142px;
   margin-top: 142px;
 }
 
+button {
+  background-color: #6070ff;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+.custom-btn-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
 
 
 
-h{
+h {
   color: rgb(37, 154, 184);
+}
+
+.custom-img-height {
+  height: 440px;
 }
