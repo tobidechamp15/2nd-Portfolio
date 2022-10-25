@@ -11,7 +11,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Frameworks Used
 
--Bootstrap
+Bootstrap
 
 ## Live Demo
 
