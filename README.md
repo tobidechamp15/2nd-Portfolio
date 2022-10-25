@@ -1,6 +1,6 @@
 # 2nd-Portfolio
 
-> A portfolio designed to tell users about the designer and to showcase works done by the designer.
+> A portfolio designed to tell users about the designer and to showcase works done by the designer
 
 ## Built With
 
