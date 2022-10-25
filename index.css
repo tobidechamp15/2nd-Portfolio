@@ -17,7 +17,7 @@
   width: fit-content;
 }
 
-.custom-container{
+.custom-container {
   border-radius: 0 0 0 100px;
 }
 
@@ -92,7 +92,7 @@
   display: flex;
   height: 0;
   padding: 20% 20% 35%;
-  
+
 }
 
 .tonic {
@@ -157,6 +157,89 @@
   gap: 142px;
   margin-top: 142px;
 }
+
 h {
   color: rgb(37, 154, 184);
+}
+
+button {
+  background-color: #6070ff;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+.custom-btn-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.custom-img-height {
+  height: 440px;
+}
+
+.custom-about {
+  background-color: #FFFFFF;
+  border-radius: 0 100 0 0;
+}
+
+/* From uiverse.io by @mrhyddenn */
+button {
+  background: transparent;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: 20px 30px;
+  perspective: 30rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
+}
+
+button::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));
+  z-index: 1;
+  transition: background 3s;
+}
+
+button:hover::before {
+  animation: rotate 1s;
+  transition: all .5s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.custom-about-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
 }
