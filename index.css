@@ -157,32 +157,6 @@
   gap: 142px;
   margin-top: 142px;
 }
-
-button {
-  background-color: #6070ff;
-  color: #FFFFFF;
-  padding: 12px;
-}
-
-.custom-btn-text {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
-}
-
-
-
 h {
   color: rgb(37, 154, 184);
-}
-
-.custom-img-height {
-  height: 440px;
 }
