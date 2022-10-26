@@ -191,12 +191,14 @@ button {
 }
 
 /* From uiverse.io by @mrhyddenn */
-button {
+.about-button {
   background: transparent;
   color: #fff;
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 600;
+  width: 162px;
+  height: 48px;
   border: none;
   padding: 20px 30px;
   perspective: 30rem;
@@ -204,7 +206,7 @@ button {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
 }
 
-button::before {
+.about-button::before {
   content: '';
   display: block;
   position: absolute;
@@ -218,7 +220,7 @@ button::before {
   transition: background 3s;
 }
 
-button:hover::before {
+.about-button:hover::before {
   animation: rotate 1s;
   transition: all .5s;
 }
@@ -242,4 +244,48 @@ button:hover::before {
   display: flex;
   align-items: center;
   color: #172B4D;
+}
+
+.custom-about-des {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.custom-about-connect {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+}
+
+.left-block {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-about {
+    /*margin: 0;*/
+    padding-top: 114px;
+    padding: 114px 24px 0px 24px;
+  }
+
+  .left-block {
+    width: 100%;
+  }
+
+  .custom-mob-langs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .custom-languages {
+    background-color: #F7F7F9;
+  }
 }
