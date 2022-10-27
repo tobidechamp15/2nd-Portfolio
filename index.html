@@ -156,7 +156,7 @@
           videos on Gear VR.</span>
         <ul class="d-flex gap-3 list-unstyled mt-1">
           <li class="langs">html</li>
-          <li class="langs">Ruby on rails</li>
+          <li class="langs d-none d-md-block">Ruby on rails</li>
           <li class="langs">css</li>
           <li class="langs">Javascript</li>
         </ul>
@@ -188,28 +188,42 @@
       </section>
     </section>
   </div>
-  <section class="container custom-about d-md-flex flex-md-row flex-md-column gap-3">
-    <div class="left-block d-flex flex-column gap-2">
+  <section class="container-md mb-5 custom-about d-flex  flex-column flex-md-row w-100 gap-3 ">
+    <div class="left-block  d-flex flex-column gap-2">
       <span class="custom-about-title">About Myself</span>
-      <span>Hello I’m a software developer! I can help you build a product , feature or website Look through some of
+      <span class="custom-about-des">Hello I’m a software developer! I can help you build a product , feature or website
+        Look through some of
         my
         work and
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</span>
-      <span>LET'S CONNECT</span>
-      <button>
+      <span class="custom-about-connect">LET'S CONNECT</span>
+      <button class="about-button">
         <a>Hover me</a>
       </button>
     </div>
-    <div class="right-block">
-      <span>Languages</span>
-      <section>
-        <div><span><img src=""></span><span>Javascript</span></div>
-        <div><span><img src=""></span><span>HTML</span></div>
-        <div><span><img src=""></span><span>CSS</span></div>
+    <div class="right-block  d-flex flex-column gap-3 ">
+      <div class="d-flex justify-content-between align-items-center">
+        <span class="custom-lang-topic ps-2 pe-5 ">Languages</span><span><img
+            src="assets/mobile-asts/dropdown.svg"></span>
+      </div>
+      <section class="custom-mob-langs d-flex flex-column gap-3">
+        <div class="d-flex flex-row mt-2 mt-md-0  gap-2 custom-languages align-items-center  "><span><img
+              src="assets/desktop-asts/javascript-logo.svg"></span><span class="custom-lang-pics">Javascript</span>
+        </div>
+        <div class="d-flex flex-row gap-2 custom-languages align-items-center  "><span><img
+              src="assets/desktop-asts/html-logo.svg"></span><span class="custom-lang-pics">HTML</span></div>
+        <div class="d-flex flex-row gap-2 custom-languages align-items-center  "><span><img
+              src="assets/desktop-asts/css-logo.svg"></span><span class="custom-lang-pics">CSS</span></div>
       </section>
+      <div class="d-flex justify-content-between align-items-center"><span>Frameworks</span><span><img
+            src="assets/mobile-asts/right-arrow.svg"></span></div>
+      <div class="custom-split"></div>
+      <div class="d-flex justify-content-between align-items-center"><span>Skills</span><span><img
+            src="assets/mobile-asts/right-arrow.svg"></span></div>
+      <div class="custom-split"></div>
     </div>
   </section>
-  
+
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
