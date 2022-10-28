@@ -15,7 +15,7 @@ Bootstrap
 
 ## Live Demo
 
-Coming soon
+[Live Demo](https://tobidechamp-tech.netlify.app/)
 
 ### Prerequisites
 
