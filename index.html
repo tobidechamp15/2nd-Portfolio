@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,8 +11,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 </head>
-
-<body style="background-color: #e5e5e5">
+<body class="d-flex flex-column align-items-center  w-100" style="background-color: #e5e5e5">
   <div class="container-fluid custom-container bg-white">
     <section class="container-md nav bg-white">
       <span class="leftnav">My Logo</span>
@@ -108,7 +106,7 @@
           <li class="langs">css</li>
           <li class="langs">Javascript</li>
         </ul>
-        <button><span class="custom-btn-text">See Project</span> </button>
+        <button><span class="custom-btn-text ">See Project</span> </button>
       </section>
     </section>
     <section class="d-flex flex-md-row-reverse flex-column custom-fir-work ">
@@ -188,42 +186,85 @@
       </section>
     </section>
   </div>
-  <section class="container-md mb-5 custom-about d-flex  flex-column flex-md-row w-100 gap-3 ">
-    <div class="left-block  d-flex flex-column gap-2">
-      <span class="custom-about-title">About Myself</span>
-      <span class="custom-about-des">Hello I’m a software developer! I can help you build a product , feature or website
-        Look through some of
-        my
-        work and
-        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</span>
-      <span class="custom-about-connect">LET'S CONNECT</span>
-      <button class="about-button">
-        <a>Hover me</a>
-      </button>
-    </div>
-    <div class="right-block  d-flex flex-column gap-3 ">
-      <div class="d-flex justify-content-between align-items-center">
-        <span class="custom-lang-topic ps-2 pe-5 ">Languages</span><span><img
-            src="assets/mobile-asts/dropdown.svg"></span>
+  <div class="d-flex flex-column bg-white mt-5 custom-about-contact ">
+    <section
+      class="container-fluid-md custom-about d-flex align-items-start justify-content-center  flex-column flex-md-row w-100 gap-3 ">
+      <div class="left-block  d-flex flex-column gap-2">
+        <span class="custom-about-title">About Myself</span>
+        <span class="custom-about-des">Hello I’m a software developer! I can help you build a product , feature or
+          website
+          Look through some of
+          my
+          work and
+          experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</span>
+        <span class="custom-about-connect">LET'S CONNECT</span>
+        <button class="about-button">
+          <a>Hover me</a>
+        </button>
       </div>
-      <section class="custom-mob-langs d-flex flex-column gap-3">
-        <div class="d-flex flex-row mt-2 mt-md-0  gap-2 custom-languages align-items-center  "><span><img
-              src="assets/desktop-asts/javascript-logo.svg"></span><span class="custom-lang-pics">Javascript</span>
+      <div class="right-block  d-flex flex-column gap-3 ">
+        <div class="d-flex justify-content-between align-items-center">
+          <span class="custom-lang-topic ps-2 pe-5 ">Languages</span><span><img
+              src="assets/mobile-asts/dropdown.svg"></span>
         </div>
-        <div class="d-flex flex-row gap-2 custom-languages align-items-center  "><span><img
-              src="assets/desktop-asts/html-logo.svg"></span><span class="custom-lang-pics">HTML</span></div>
-        <div class="d-flex flex-row gap-2 custom-languages align-items-center  "><span><img
-              src="assets/desktop-asts/css-logo.svg"></span><span class="custom-lang-pics">CSS</span></div>
+        <section class="custom-mob-langs d-flex flex-column gap-3">
+          <div class="d-flex flex-row mt-2 mt-md-0  gap-2 custom-languages align-items-center  "><span><img
+                src="assets/desktop-asts/javascript-logo.svg"></span><span class="custom-lang-pics">Javascript</span>
+          </div>
+          <div class="d-flex flex-row gap-2 custom-languages align-items-center  "><span><img
+                src="assets/desktop-asts/html-logo.svg"></span><span class="custom-lang-pics">HTML</span></div>
+          <div class="d-flex flex-row gap-2 custom-languages align-items-center  "><span><img
+                src="assets/desktop-asts/css-logo.svg"></span><span class="custom-lang-pics">CSS</span></div>
+        </section>
+        <div class="d-flex justify-content-between align-items-center"><span>Frameworks</span><span><img
+              src="assets/mobile-asts/right-arrow.svg"></span></div>
+        <div class="custom-split"></div>
+        <div class="d-flex justify-content-between align-items-center"><span>Skills</span><span><img
+              src="assets/mobile-asts/right-arrow.svg"></span></div>
+        <div class="custom-split"></div>
+      </div>
+    </section>
+    <section class="container-fluid d-flex d-md-none flex-column custom-contact-form pb-3 mt-5">
+      <span class="custom-contact-title">Contact me</span>
+      <span class="custom-contact-des">If you have an application you are interested in developing, a feature that you
+        need built or a project that
+        needs
+        coding. I’d love to help with it</span>
+      <section class="d-flex flex-column gap-3 mt-5">
+        <input type="text" class="custom-input" placeholder="Full Name">
+        <input type="text" class="custom-input" placeholder="username1234@gmail.com">
       </section>
-      <div class="d-flex justify-content-between align-items-center"><span>Frameworks</span><span><img
-            src="assets/mobile-asts/right-arrow.svg"></span></div>
-      <div class="custom-split"></div>
-      <div class="d-flex justify-content-between align-items-center"><span>Skills</span><span><img
-            src="assets/mobile-asts/right-arrow.svg"></span></div>
-      <div class="custom-split"></div>
-    </div>
-  </section>
-
+      <textarea name="" id="custom-contact-message" placeholder="Write your message here"></textarea>
+      <button class="cta d-flex align-items-center ">
+        <span>Hover me</span>
+        <svg viewBox="0 0 13 10" height="10px" width="15px">
+          <path d="M1,5 L11,5"></path>
+          <polyline points="8 1 12 5 8 9"></polyline>
+        </svg>
+      </button>
+    </section>
+    <section class=" d-none d-md-flex flex-column justify-content-center align-items-center custom-contact-form-des ">
+      <div class="container d-flex flex-column justify-content-center align-items-center mt-5 gap-4 ">
+      <span class="custom-cont-desk">Contact me</span>
+      <span class="custom-contact-desk">If you have an application you are interested in developing, a feature that you
+      need built or a project that
+      needs
+      coding. I’d love to help with it</span>
+      <section class="d-flex flex-column gap-3 align-items-center justify-content-center ">
+        <input type="text" placeholder="Full Name" class="desk-input">
+        <input type="text" placeholder="username1234@gmail.com" class="desk-input">
+        <textarea name="" id="custom-des-txt-area" placeholder="Write your message here"></textarea>
+      </section>
+      <button class="cta d-flex align-items-center justify-content-center gap-2 ">
+        <span class="">Hover me</span>
+        <svg viewBox="0 0 13 10" height="10px" width="15px">
+          <path d="M1,5 L11,5"></path>
+          <polyline points="8 1 12 5 8 9"></polyline>
+        </svg>
+      </button>
+      </div>
+    </section>
+  </div>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
